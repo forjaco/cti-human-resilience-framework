@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Integrated Behavioral Defense Plan - Daniel P Pedreira</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <style>
+
+
+        :root {
+
+
+            --color-primary: #1976D2; /* Brilliant Blues - Darker Blue */
+
+
+            --color-secondary: #42A5F5; /* Brilliant Blues - Medium Blue */
+
+
+            --color-accent: #BBDEFB; /* Brilliant Blues - Light Blue */
+
+
+            --color-success: #4CAF50;
+
+
+            --color-warning: #FFC107;
+
+
+            --color-danger: #F44336;
+
+
+        }
+
+
+        body {
+
+
+            font-family: 'Inter', sans-serif;
+
+
+            background-color: #F8F9FA;
+
+
+        }
+
+
+        .text-primary { color: var(--color-primary); }
+
+
+        .bg-primary { background-color: var(--color-primary); }
+
+
+        .bg-secondary { background-color: var(--color-secondary); }
+
+
+        .border-primary { border-color: var(--color-primary); }
+
+
+        .chart-container {
+
+
+            position: relative;
+
+
+            height: 350px;
+
+
+            width: 100%;
+
+
+            max-width: 600px;
+
+
+            margin-left: auto;
+
+
+            margin-right: auto;
+
+
+        }
+
+
+        @media (min-width: 768px) {
+
+
+            .chart-container { height: 400px; }
+
+
+        }
+
+
+    </style>
+
+
+</head>
+
+
+<body class="min-h-screen" onload="initCharts()">
+
+
+
+
+
+    <header class="bg-primary text-white p-6 shadow-xl sticky top-0 z-10">
+
+
+        <div class="max-w-7xl mx-auto">
+
+
+            <h1 class="text-4xl font-extrabold tracking-tight">Integrated Behavioral Defense Plan</h1>
+
+
+            <p class="mt-2 text-xl font-light opacity-80">From Big Five Research to Actionable Social Engineering Strategy</p>
+
+
+            <p class="mt-4 text-sm">Researcher: Daniel P Pedreira | Affiliation: Personal Portfolio</p>
+
+
+        </div>
+
+
+    </header>
+
+
+
+
+
+    <main class="max-w-7xl mx-auto p-6 md:p-10">
+
+
+
+
+
+        <section class="mb-12">
+
+
+            <h2 class="text-3xl font-bold text-primary border-b-2 border-primary pb-2 mb-6">Executive Summary and Foundation</h2>
+
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+
+
+                <p class="text-gray-700 leading-relaxed">This plan converts personality trait analysis (Big Five) into a Level II Cybersecurity Defense Framework. It integrates Threat Intelligence and HR to create an adaptive training system, using **Behavioral Nudges** (subtle cues) that neutralize each employee's specific psychological vulnerability, moving security from a reactive to a proactive and predictive posture.</p>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 text-center">
+
+
+                    <div class="p-4 bg-accent text-primary rounded-lg shadow-inner">
+
+
+                        <p class="text-3xl font-extrabold">5/5</p>
+
+
+                        <p class="text-sm uppercase font-semibold">Traits Mapped</p>
+
+
+                    </div>
+
+
+                    <div class="p-4 bg-accent text-primary rounded-lg shadow-inner">
+
+
+                        <p class="text-3xl font-extrabold">100%</p>
+
+
+                        <p class="text-sm uppercase font-semibold">Evidence-Based</p>
+
+
+                    </div>
+
+
+                    <div class="p-4 bg-accent text-primary rounded-lg shadow-inner">
+
+
+                        <p class="text-3xl font-extrabold">3</p>
+
+
+                        <p class="text-sm uppercase font-semibold">Implementation Stages</p>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <section class="mb-12">
+
+
+            <h2 class="text-3xl font-bold text-primary border-b-2 border-primary pb-2 mb-6">Behavioral Defense Framework (CRF - RCO)</h2>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-l-4 border-secondary">
+
+
+                    <div class="flex items-center space-x-3 mb-3">
+
+
+                        <span class="text-3xl font-bold text-primary">1</span>
+
+
+                        <h3 class="text-xl font-semibold text-gray-800">Risk Assessment (CRF)</h3>
+
+
+                    </div>
+
+
+                    <p class="text-gray-600">HR and Threat Intelligence collaborate to assign a **Behavioral Risk Factor (CRF)** to population clusters, identifying the exposure and most likely attack vector for each group.</p>
+
+
+                    <p class="mt-4 text-sm font-semibold text-primary">Key Metric: CRF (Behavioral Risk Factor)</p>
+
+
+                </div>
+
+
+
+
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-l-4 border-secondary">
+
+
+                    <div class="flex items-center space-x-3 mb-3">
+
+
+                        <span class="text-3xl font-bold text-primary">2</span>
+
+
+                        <h3 class="text-xl font-semibold text-gray-800">Intervention (NUDGES)</h3>
+
+
+                    </div>
+
+
+                    <p class="text-gray-600">Implementation of gamified and personalized training using Nudges (behavioral cues) based on the dominant personality trait to build resilience (Ex: SOPA, TBYL).</p>
+
+
+                    <p class="mt-4 text-sm font-semibold text-primary">Key Metric: TRAT (Training Attack Reaction Rate)</p>
+
+
+                </div>
+
+
+
+
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-l-4 border-secondary">
+
+
+                    <div class="flex items-center space-x-3 mb-3">
+
+
+                        <span class="text-3xl font-bold text-primary">3</span>
+
+
+                        <h3 class="text-xl font-semibold text-gray-800">Operational Resilience (RCO)</h3>
+
+
+                    </div>
+
+
+                    <p class="text-gray-600">Continuous measurement of simulation impact, adjusting the initial CRF and calculating the **Operational Behavioral Resilience (RCO)**, the final indicator of human risk.</p>
+
+
+                    <p class="mt-4 text-sm font-semibold text-primary">Key Metric: RCO (Operational Behavioral Resilience)</p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <section class="mb-12">
+
+
+            <h2 class="text-3xl font-bold text-primary border-b-2 border-primary pb-2 mb-6">Pre-Training Behavioral Risk Map (CRF)</h2>
+
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+
+
+                <p class="text-gray-700 mb-4">The initial risk matrix demonstrates how personality traits (CRF) correlate with vulnerability to specific attacks. The training goal is to move all traits to a Low-Medium Risk after interventions.</p>
+
+
+
+
+
+                <div class="chart-container">
+
+
+                    <canvas id="radarChart"></canvas>
+
+
+                </div>
+
+
+                <p class="text-center text-sm text-gray-500 mt-4">Source: Synthesis of Ge et al. (2021) and Frauenstein et al. (2020).</p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <section class="mb-12">
+
+
+            <h2 class="text-3xl font-bold text-primary border-b-2 border-primary pb-2 mb-6">Nudges and Behavioral Justification</h2>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+
+
+
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+
+
+                    <h3 class="text-2xl font-bold text-primary mb-2">SOPA (Agreeableness)</h3>
+
+
+                    <p class="font-semibold text-gray-700">Secondary Confirmation Protocol (Out-of-Band).</p>
+
+
+                    <p class="text-sm text-gray-600 mt-2">**Exploits:** Trust Bias and Willingness to Help. **Intervention:** Forces a break from the primary communication (email/vishing) to verify the request through a secure channel (chat or phone). **Theory:** Inoculation (McGuire) – Creates resistance to emotional manipulation by establishing a rigid external rule.</p>
+
+
+                    
+
+
+                    <h3 class="text-2xl font-bold text-primary mt-6 mb-2">STOP, BREATHE, VERIFY (Neuroticism)</h3>
+
+
+                    <p class="font-semibold text-gray-700">Mandatory Pause under Stress/Urgency.</p>
+
+
+                    <p class="text-sm text-gray-600 mt-2">**Exploits:** Impulsivity and Anxiety under Urgency. **Intervention:** Trains the employee to pause the action and breathe (physical mechanism) before clicking links or responding to emotionally charged requests. **Theory:** Dual Process (Kahneman) – Forces the transition from System 1 (emotional) to System 2 (rational).</p>
+
+
+                </div>
+
+
+
+
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+
+
+                    <h3 class="text-2xl font-bold text-primary mb-2">TBYL (Extraversion)</h3>
+
+
+                    <p class="font-semibold text-gray-700">Think Before You Link/Share (Data Hygiene).</p>
+
+
+                    <p class="text-sm text-gray-600 mt-2">**Exploits:** Low Social Inhibition and *Oversharing*. **Intervention:** Makes the employee aware of how information published on social media is used in *spear-phishing* and *pretexting*. **Theory:** Privacy Calculus – Alters the perception of cost/benefit in data sharing.</p>
+
+
+                        
+
+
+                    <h3 class="text-2xl font-bold text-primary mt-6 mb-2">SOURCE PRINCIPLE (Openness)</h3>
+
+
+                    <p class="font-semibold text-gray-700">Channeling Curiosity.</p>
+
+
+                    <p class="text-sm text-gray-600 mt-2">**Exploits:** Novelty Seeking and Risk Acceptance. **Intervention:** Trains the employee to satisfy curiosity for innovation by seeking information exclusively through official channels (Intranet, IT), ignoring unsolicited external sources. **Theory:** Theory of Planned Behavior (TPB) – Redirects behavior to a secure channel.</p>
+
+
+                    
+
+
+                    <h3 class="text-2xl font-bold text-primary mt-6 mb-2">RULE vs. RISK (Conscientiousness)</h3>
+
+
+                    <p class="font-semibold text-gray-700">Formal Permission to Question.</p>
+
+
+                    <p class="text-sm text-gray-600 mt-2">**Exploits:** Blind Obedience to Authority. **Intervention:** Teaches that data security is the supreme rule. Explicitly grants permission for the employee to challenge an order if it appears to compromise security. **Theory:** Destructive Obedience (Milgram) – Restructures the hierarchy of priorities, placing security above speed.</p>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+        <section class="mb-12">
+
+
+            <h2 class="text-3xl font-bold text-primary border-b-2 border-primary pb-2 mb-6">Impact Measurement and Final Resilience (RCO)</h2>
+
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+
+
+                <p class="text-gray-700 mb-6">The program effectiveness is measured through three interconnected metrics that culminate in the Operational Behavioral Resilience (RCO).</p>
+
+
+                
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+                    <div>
+
+
+                        <h3 class="text-xl font-bold text-secondary mb-2">Process Metrics (Input)</h3>
+
+
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+
+
+                            <li>**CRF (Behavioral Risk Factor):** Initial risk based on Big Five (Baseline Measurement).</li>
+
+
+                            <li>**TRAT (Training Attack Reaction Rate):** Percentage of users who failed specific simulations (Failure Measurement).</li>
+
+
+                            <li>**SOPA Compliance Rate:** % of users who confirmed the test request via an alternative channel (Nudge Measurement).</li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+                    <div>
+
+
+                        <h3 class="text-xl font-bold text-secondary mb-2">Final Metric (Output)</h3>
+
+
+                        <p class="font-semibold text-gray-800">RCO (Operational Behavioral Resilience)</p>
+
+
+                        <p class="text-sm text-gray-600 mt-2">The resilience indicator that combines initial risk (CRF) with training effectiveness (TRAT).</p>
+
+
+                        
+
+
+                        <div class="mt-4 bg-gray-100 p-4 rounded-lg">
+
+
+                            <p class="font-mono text-sm text-gray-900 break-all">
+
+
+                                RCO = 1 - ( (CRF * TRAT) + (1 - SOPA_Rate) )
+
+
+                            </p>
+
+
+                            <p class="text-xs text-gray-500 mt-1">Resilience Target: RCO > 0.85</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                
+
+
+                <h3 class="text-2xl font-bold text-primary pt-8 pb-4 border-t mt-8">Post-Training Simulation</h3>
+
+
+                <div class="chart-container h-64">
+
+
+                    <canvas id="barChart"></canvas>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+
+
+    <footer class="bg-gray-800 text-white p-4 text-center text-sm mt-12">
+
+
+        <p>Developed for Personal Portfolio by Daniel P Pedreira | Advanced Analysis in Cybersecurity and Behavior.</p>
+
+
+    </footer>
+
+
+
+
+
+    <script>
+
+
+        /* CRITICAL: ALL HTML, CSS, and JS MUST be in this file. */
+
+
+        /* NO SVG. NO MERMAID JS. */
+
+
+        
+
+
+        function wrapLabels(labels) {
+
+
+            const MAX_LENGTH = 16;
+
+
+            return labels.map(label => {
+
+
+                if (label.length <= MAX_LENGTH) {
+
+
+                    return label;
+
+
+                }
+
+
+                let words = label.split(' ');
+
+
+                let lines = [];
+
+
+                let currentLine = '';
+
+
+                words.forEach(word => {
+
+
+                    if ((currentLine + ' ' + word).trim().length > MAX_LENGTH && currentLine !== '') {
+
+
+                        lines.push(currentLine.trim());
+
+
+                        currentLine = word;
+
+
+                    } else {
+
+
+                        currentLine = (currentLine + ' ' + word).trim();
+
+
+                    }
+
+
+                });
+
+
+                if (currentLine) {
+
+
+                    lines.push(currentLine.trim());
+
+
+                }
+
+
+                return lines;
+
+
+            });
+
+
+        }
+
+
+
+
+
+        function getChartOptions(titleText) {
+
+
+            return {
+
+
+                responsive: true,
+
+
+                maintainAspectRatio: false,
+
+
+                plugins: {
+
+
+                    title: {
+
+
+                        display: true,
+
+
+                        text: titleText,
+
+
+                        color: 'var(--color-primary)'
+
+
+                    },
+
+
+                    tooltip: {
+
+
+                        callbacks: {
+
+
+                            title: function(tooltipItems) {
+
+
+                                const item = tooltipItems[0];
+
+
+                                let label = item.chart.data.labels[item.dataIndex];
+
+
+                                if (Array.isArray(label)) {
+
+
+                                    return label.join(' ');
+
+
+                                } else {
+
+
+                                    return label;
+
+
+                                }
+
+
+                            }
+
+
+                        }
+
+
+                    },
+
+
+                    legend: {
+
+
+                        position: 'top',
+
+
+                    }
+
+
+                },
+
+
+                scales: {
+
+
+                    r: {
+
+
+                        angleLines: { color: 'rgba(0,0,0,0.1)' },
+
+
+                        grid: { color: 'rgba(0,0,0,0.1)' },
+
+
+                        pointLabels: {
+
+
+                            font: { size: 12, weight: 'bold' },
+
+
+                            color: '#333'
+
+
+                        },
+
+
+                        suggestedMin: 0,
+
+
+                        suggestedMax: 5,
+
+
+                        ticks: { display: false }
+
+
+                    }
+
+
+                }
+
+
+            };
+
+
+        }
+
+
+
+
+
+        function getBarOptions(titleText) {
+
+
+            return {
+
+
+                responsive: true,
+
+
+                maintainAspectRatio: false,
+
+
+                plugins: {
+
+
+                    title: {
+
+
+                        display: true,
+
+
+                        text: titleText,
+
+
+                        color: 'var(--color-primary)'
+
+
+                    },
+
+
+                    tooltip: {
+
+
+                        callbacks: {
+
+
+                            title: function(tooltipItems) {
+
+
+                                const item = tooltipItems[0];
+
+
+                                let label = item.chart.data.labels[item.dataIndex];
+
+
+                                if (Array.isArray(label)) {
+
+
+                                    return label.join(' ');
+
+
+                                } else {
+
+
+                                    return label;
+
+
+                                }
+
+
+                            }
+
+
+                        }
+
+
+                    },
+
+
+                    legend: {
+
+
+                        display: false
+
+
+                    }
+
+
+                },
+
+
+                scales: {
+
+
+                    y: {
+
+
+                        beginAtZero: true,
+
+
+                        max: 1.0,
+
+
+                        title: { display: true, text: 'RCO (Operational Resilience)', color: '#333' }
+
+
+                    },
+
+
+                    x: {
+
+
+                        ticks: {
+
+
+                            autoSkip: false
+
+
+                        }
+
+
+                    }
+
+
+                }
+
+
+            };
+
+
+        }
+
+
+
+
+
+        function initCharts() {
+
+
+            const traits = ['Neuroticism (Fear/Urgency)', 'Agreeableness (Help/Trust)', 'Extraversion (Oversharing)', 'Openness (Curiosity)', 'Conscientiousness (Obedience)'];
+
+
+            const wrappedLabels = wrapLabels(traits);
+
+
+            const currentLabels = ['Neuroticismo (Medo/Urgência)', 'Amabilidade (Ajuda/Confiança)', 'Extroversão (Oversharing)', 'Abertura (Curiosidade)', 'Conscienciosidade (Obediência)'];
+
+
+
+
+
+            // --- RADAR CHART (CRF - Initial Risk) ---
+
+
+            const radarCtx = document.getElementById('radarChart')?.getContext('2d');
+
+
+            if (radarCtx) {
+
+
+                new Chart(radarCtx, {
+
+
+                    type: 'radar',
+
+
+                    data: {
+
+
+                        labels: wrappedLabels,
+
+
+                        datasets: [{
+
+
+                            label: 'Initial Behavioral Risk (CRF)',
+
+
+                            data: [4.5, 4.8, 3.5, 4.0, 4.2], // 5 is max risk
+
+
+                            backgroundColor: 'rgba(66, 165, 245, 0.4)', // Secondary Blue
+
+
+                            borderColor: 'var(--color-secondary)',
+
+
+                            pointBackgroundColor: 'var(--color-primary)',
+
+
+                            pointBorderColor: '#fff',
+
+
+                            pointHoverBackgroundColor: '#fff',
+
+
+                            pointHoverBorderColor: 'var(--color-primary)',
+
+
+                            borderWidth: 2
+
+
+                        }]
+
+
+                    },
+
+
+                    options: getChartOptions('Vulnerability by Trait (Scale 1 to 5)')
+
+
+                });
+
+
+            }
+
+
+
+
+
+            // --- BAR CHART (RCO - Final Resilience Simulated) ---
+
+
+            const barCtx = document.getElementById('barChart')?.getContext('2d');
+
+
+            if (barCtx) {
+
+
+                const results = [0.82, 0.91, 0.88, 0.95, 0.85]; // Example RCO > 0.85
+
+
+                const colors = results.map(r => r >= 0.85 ? 'var(--color-success)' : 'var(--color-warning)');
+
+
+                
+
+
+                new Chart(barCtx, {
+
+
+                    type: 'bar',
+
+
+                    data: {
+
+
+                        labels: wrappedLabels,
+
+
+                        datasets: [{
+
+
+                            label: 'RCO - Operational Behavioral Resilience',
+
+
+                            data: results,
+
+
+                            backgroundColor: colors,
+
+
+                            borderColor: colors.map(c => c.replace('0.4', '1')),
+
+
+                            borderWidth: 1
+
+
+                        }]
+
+
+                    },
+
+
+                    options: getBarOptions('Simulated Post-Training RCO (Target > 0.85)')
+
+
+                });
+
+
+            }
+
+
+        }
+
+
+    </script>
+
+
+</body>
+
+
+</html>
